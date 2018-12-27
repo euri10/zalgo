@@ -126,23 +126,20 @@ zalgo_mid = [
 
 
 @app.route("/")
-def letter():
-    up = {}
-    up['header'] = [letter for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-    for z in zalgo_up:
-        up[z] = [(letter + z, z.encode("raw_unicode_escape")) for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-    mid = {}
-    mid['header'] = [letter for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-    for z in zalgo_mid:
-        mid[z] = [(letter + z, z.encode("raw_unicode_escape")) for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-    down = {}
-    down['header'] = [letter for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-    for z in zalgo_down:
-        down[z] = [(letter + z, z.encode("raw_unicode_escape")) for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+def index():
 
-    # ret['header'] = [str(z.encode("raw_unicode_escape").decode())[2:] for z in zalgo]
-    # for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-    #     ret[letter] = [(letter + z, z.encode("raw_unicode_escape")) for z in zalgo]
+    letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+    up = {'header': [letter for letter in letters]}
+    for z in zalgo_up:
+        up[z] = [(letter + z, z.encode("raw_unicode_escape")) for letter in letters]
+    mid = {'header': [letter for letter in letters]}
+    for z in zalgo_mid:
+        mid[z] = [(letter + z, z.encode("raw_unicode_escape")) for letter in letters]
+    down = {'header': [letter for letter in letters]}
+    for z in zalgo_down:
+        down[z] = [(letter + z, z.encode("raw_unicode_escape")) for letter in letters]
+
     return render_template("zalgo.html", up=up, mid=mid, down=down)
 
 

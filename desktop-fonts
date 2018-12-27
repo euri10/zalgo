@@ -1,0 +1,68 @@
+/usr/local/share/fonts: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts: caching, new cache contents: 0 fonts, 6 dirs
+/usr/share/fonts/cmap/adobe-cns1: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-cns1: skipping, looped directory detected
+/usr/share/fonts/cmap/adobe-gb1: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-gb1: skipping, looped directory detected
+/usr/share/fonts/cmap/adobe-japan1: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-japan1: skipping, looped directory detected
+/usr/share/fonts/cmap/adobe-japan2: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-japan2: skipping, looped directory detected
+/usr/share/fonts/cmap/adobe-korea1: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-korea1: skipping, looped directory detected
+/usr/share/fonts/cMap: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap: caching, new cache contents: 0 fonts, 5 dirs
+/usr/share/fonts/cmap: skipping, looped directory detected
+/usr/share/fonts/cMap: skipping, looped directory detected
+/usr/share/fonts/opentype: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/opentype/noto: caching, new cache contents: 64 fonts, 0 dirs
+/usr/share/fonts/opentype/noto: skipping, looped directory detected
+/usr/share/fonts/opentype: skipping, looped directory detected
+/usr/share/fonts/truetype: caching, new cache contents: 1 fonts, 13 dirs
+/usr/share/fonts/truetype/crosextra: caching, new cache contents: 4 fonts, 0 dirs
+/usr/share/fonts/truetype/crosextra: skipping, looped directory detected
+/usr/share/fonts/truetype/dejavu: caching, new cache contents: 22 fonts, 0 dirs
+/usr/share/fonts/truetype/dejavu: skipping, looped directory detected
+/usr/share/fonts/truetype/droid: caching, new cache contents: 1 fonts, 0 dirs
+/usr/share/fonts/truetype/droid: skipping, looped directory detected
+/usr/share/fonts/truetype/freefont: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/truetype/freefont: skipping, looped directory detected
+/usr/share/fonts/truetype/lato: caching, new cache contents: 18 fonts, 0 dirs
+/usr/share/fonts/truetype/lato: skipping, looped directory detected
+/usr/share/fonts/truetype/liberation: caching, new cache contents: 16 fonts, 0 dirs
+/usr/share/fonts/truetype/liberation: skipping, looped directory detected
+/usr/share/fonts/truetype/lyx: caching, new cache contents: 11 fonts, 0 dirs
+/usr/share/fonts/truetype/lyx: skipping, looped directory detected
+/usr/share/fonts/truetype/msttcorefonts: caching, new cache contents: 60 fonts, 0 dirs
+/usr/share/fonts/truetype/msttcorefonts: skipping, looped directory detected
+/usr/share/fonts/truetype/noto: caching, new cache contents: 250 fonts, 0 dirs
+/usr/share/fonts/truetype/noto: skipping, looped directory detected
+/usr/share/fonts/truetype/roboto: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/truetype/roboto/hinted: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/truetype/roboto/hinted: skipping, looped directory detected
+/usr/share/fonts/truetype/roboto: skipping, looped directory detected
+/usr/share/fonts/truetype: skipping, looped directory detected
+/usr/share/fonts/truetype/ttf-bitstream-vera: caching, new cache contents: 10 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-bitstream-vera: skipping, looped directory detected
+/usr/share/fonts/truetype/ttf-dejavu: caching, new cache contents: 21 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-dejavu: skipping, looped directory detected
+/usr/share/fonts/truetype/vlgothic: caching, new cache contents: 2 fonts, 0 dirs
+/usr/share/fonts/truetype/vlgothic: skipping, looped directory detected
+/usr/share/fonts/type1: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/type1/gsfonts: caching, new cache contents: 35 fonts, 0 dirs
+/usr/share/fonts/type1/gsfonts: skipping, looped directory detected
+/usr/share/fonts/type1: skipping, looped directory detected
+/usr/share/fonts/X11: caching, new cache contents: 0 fonts, 4 dirs
+/usr/share/fonts/X11/encodings: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/X11/encodings/large: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/X11/encodings/large: skipping, looped directory detected
+/usr/share/fonts/X11/encodings: skipping, looped directory detected
+/usr/share/fonts/X11/misc: caching, new cache contents: 89 fonts, 0 dirs
+/usr/share/fonts/X11/misc: skipping, looped directory detected
+/usr/share/fonts/X11: skipping, looped directory detected
+/usr/share/fonts/X11/Type1: caching, new cache contents: 35 fonts, 0 dirs
+/usr/share/fonts/X11/Type1: skipping, looped directory detected
+/usr/share/fonts/X11/util: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/X11/util: skipping, looped directory detected
+/usr/X11R6/lib/X11/fonts: skipping, no such directory
+/var/cache/fontconfig: not cleaning unwritable cache directory
