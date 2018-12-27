@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <style>
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<table style="width:100%">
+    {% for key, value in up.items() %}
+        {% if key=='header' %}
+            <tr>
+                <th>up</th>
+                {% for r  in value %}
+                    <th>{{ r }}</th>
+                {% endfor %}
+            </tr>
+
+        {% else %}
+            <tr>
+                <td>{{ value[0][1]}}</td>
+                {% for r  in value %}
+                    <td title="{{ r[1] }}">{{ r[0] }}</td>
+                {% endfor %}
+            </tr>
+        {% endif %}
+    {% endfor %}
+</table>
+<br>
+<table style="width:100%">
+    {% for key, value in mid.items() %}
+        {% if key=='header' %}
+            <tr>
+                <th>mid</th>
+                {% for r  in value %}
+                    <th>{{ r }}</th>
+                {% endfor %}
+            </tr>
+
+        {% else %}
+            <tr>
+                <td>{{ value[0][1]}}</td>
+                {% for r  in value %}
+                    <td title="{{ r[1] }}">{{ r[0] }}</td>
+                {% endfor %}
+            </tr>
+        {% endif %}
+    {% endfor %}
+</table>
+<br>
+<table style="width:100%">
+    {% for key, value in down.items() %}
+        {% if key=='header' %}
+            <tr>
+                <th>down</th>
+                {% for r  in value %}
+                    <th>{{ r }}</th>
+                {% endfor %}
+            </tr>
+
+        {% else %}
+            <tr>
+                <td>{{ value[0][1]}}</td>
+                {% for r  in value %}
+                    <td title="{{ r[1] }}">{{ r[0] }}</td>
+                {% endfor %}
+            </tr>
+        {% endif %}
+    {% endfor %}
+</table>
+</body>
+</html>

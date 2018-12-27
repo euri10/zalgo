@@ -1,0 +1,19 @@
+version: '3.7'
+services:
+  zalgo:
+    container_name: zalgo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=zalgo"
+      - "traefik.frontend.rule=Host:zalgo.bartab.fr"
+      - "traefik.port=8000"
+      - "traefik.docker.network=web"
+    networks:
+      - default
+      - web
+networks:
+  web:
+    external: true
